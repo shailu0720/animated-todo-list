@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+  transition: background 0.4s, color 0.4s;
+}
+
+body.light {
+  background: #f9fafb;
+  color: #1e293b;
+}
+
+/* App Container */
+.app {
+  max-width: 500px;
+  width: 100%;
+  margin: 50px auto;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  transition: background 0.3s ease;
+}
+
+body.light .app {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+/* Heading with Typewriter Effect */
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #38bdf8;
+  animation: typing 2.5s steps(40, end), blink 0.75s step-end infinite;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+/* Input Section */
+.input-section {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.input-section input,
+.input-
+li button {
+  margin-left: 12px;
+}

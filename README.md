@@ -26,9 +26,9 @@ A beautifully animated and mobile-friendly To-Do List web app that lets you add,
 
 ## 📸 Screenshots
 
-| Task View | Completed View |
-|-----------|----------------|
-| ![Task UI](screenshots/taskui.png) | ![Completed UI](screenshots/screenshot.png) |
+ Completed View |
+----------------|
+[Completed UI](screenshot.png) |
 
 ---
 
